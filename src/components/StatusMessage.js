@@ -22,8 +22,9 @@ const StatusMessage = ({ winner, current }) => {
       )}
       {!winner && noMovesLeft && (
         <>
-          <span className="text-green">X</span> and{' '}
-          <span className="text-orange">0</span>tied
+          <span className="text-green">It's</span>{' '}
+          <span className="text-orange">a </span>{' '}
+          <span className="text-cyan">Tie </span>
         </>
       )}
     </div>
